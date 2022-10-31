@@ -1,0 +1,103 @@
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BODY */
+
+body {
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+}
+
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.producto-img {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.producto-img img {
+    height: 500px;
+    width: 100%;
+}
+
+.producto-info {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.producto-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.precio {
+    font-weight: bold;
+}
+.precio-ofertas {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+/* CONTACTO */
+
+
+
+
+@media (min-width: 768px) {
+
+    .productos {
+        flex-flow: row wrap;
+    }
+
+}
+
+    .img {
+        width: 100%;
+        transition: all 300ms;
+        position: relative;
+    }
+
+    .img:hover {
+        transform: scale(1.15);
+    }
+
+    /* SOBRE NOSOTROS */
+
+    
+
+    .preg-nos{
+        text-align: center;
+        font-weight: bold;
+        
+        margin: 10px;
+    }
+    .lorem{
+        font-size: 30px;
+        padding: 7px;
+        margin: 10px;
+    }
+
+
+    
