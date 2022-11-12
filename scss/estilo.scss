@@ -1,0 +1,52 @@
+@import "fuentes";
+@import "variables";
+@import "header";
+@import "mixin";
+@import "footer";
+@import "general";
+@import "hero";
+  
+  
+  
+  .producto-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .precio {
+    font-weight: bold;
+  }
+  
+  .precio-ofertas {
+    color: $color-precios;
+    font-weight: bold;
+    font-size: $tam-oferta;
+    text-decoration: line-through;
+  }
+  
+  /* CONTACTO */
+  
+  @media (min-width: 768px) {
+    .productos {
+      flex-flow: row wrap;
+    }
+  }
+  
+  .img {
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+  
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+  
+  .text {
+    font-size: 25px;
+    padding: 7px;
+    margin: 10px;
+  }
+
+
+ 

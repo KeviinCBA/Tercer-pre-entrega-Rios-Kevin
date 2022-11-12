@@ -1,0 +1,17 @@
+@mixin parrafo {
+    text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+.preg-nos{
+    @include parrafo
+}
+
+@mixin par {
+    text-align: center;
+  font-size: 30px;
+  line-height: 1.1;
+}
+.producto-info{
+    @include par
+}

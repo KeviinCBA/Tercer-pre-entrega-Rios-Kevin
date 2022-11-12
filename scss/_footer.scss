@@ -1,0 +1,24 @@
+/*FOOTER*/
+footer{
+    background-color:black;
+
+    .icono{
+        display: flex;
+        justify-content: center;
+    }
+    .colum{
+        display: flex;
+    justify-content: center;
+    }
+
+    
+    @media (max-width: 550px){
+
+        .colum {
+          display: flex;
+          flex-direction: column;
+        }
+        }
+}
+
+
