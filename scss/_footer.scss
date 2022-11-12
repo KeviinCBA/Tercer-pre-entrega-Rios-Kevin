@@ -1,24 +1,23 @@
 /*FOOTER*/
-footer{
-    background-color:black;
+footer {
+    background-color: black;
 
-    .icono{
+    .icono {
         display: flex;
         justify-content: center;
     }
-    .colum{
+
+    .colum {
         display: flex;
-    justify-content: center;
+        justify-content: center;
     }
 
-    
-    @media (max-width: 550px){
+
+    @media (max-width: 550px) {
 
         .colum {
-          display: flex;
-          flex-direction: column;
+            display: flex;
+            flex-direction: column;
         }
-        }
+    }
 }
-
-
