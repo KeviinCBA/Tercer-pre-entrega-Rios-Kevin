@@ -4,16 +4,22 @@ footer {
 
     .icono {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .colum {
         display: flex;
-        justify-content: center;
-    }
+        justify-content: space-around;
+}
 
 
-    @media (max-width: 550px) {
+    @media (max-width: 300px) {
+
+        .icono{
+            display: flex;
+            flex-direction: column;
+            
+        }
 
         .colum {
             display: flex;
